@@ -1,0 +1,6 @@
+com\altitude\sync\AltitudeSync.class
+com\altitude\sync\sync\PlayerSync.class
+com\altitude\sync\util\LuckPermsUtil.class
+com\altitude\voteplugin\VoteListener.class
+com\altitude\sync\sync\ServerSync.class
+com\altitude\sync\listeners\PlayerListener.class
