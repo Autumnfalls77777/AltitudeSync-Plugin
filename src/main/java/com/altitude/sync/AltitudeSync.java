@@ -26,7 +26,7 @@ public final class AltitudeSync extends JavaPlugin {
         reloadConfig();
 
         // Read from the unified config
-        backendUrl   = getConfig().getString("backend.url",      "https://altitude-vmzb.onrender.com");
+        backendUrl = getConfig().getString("backend.url", "https://your-backend-url.com");
         apiKey       = getConfig().getString("backend.api-key",  "CHANGE_ME");
         int interval = getConfig().getInt("server-sync-interval", 20);
 
