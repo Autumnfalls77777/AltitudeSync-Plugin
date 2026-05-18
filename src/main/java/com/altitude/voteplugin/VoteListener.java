@@ -46,8 +46,8 @@ public class VoteListener implements Listener {
     // -------------------------------------------------------------------------
     private void sendVote(String username, String site, long timestamp,
                           FileConfiguration config, boolean debug) {
-
-        String baseUrl  = config.getString("backend.url",           "https://altitude-vmzb.onrender.com");
+    
+        String baseUrl  = config.getString("backend.url",           "https://your-backend-url.com");
         String endpoint = config.getString("backend.vote-endpoint", "/api/vote");
         String apiKey   = config.getString("backend.api-key",       "");
         String fullUrl  = baseUrl + endpoint;
